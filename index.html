@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my page</title>
+    <meta name="description" content="A structured HTML5 document with images, tables, lists, and forms">
+</head>
+
+<body>
+
+   
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+
+ 
+    <section>
+        <h2>Top 5 Programming Languages</h2>
+        <ol type="I">
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>C++</li>
+            <li>Swift</li>
+        </ol>
+    </section>
+
+  
+    <section>
+        <h2>Beautiful Nature</h2>
+        <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg" 
+             alt="Beautiful nature scenery" 
+             width="600">
+    </section>
+
+    
+    <section>
+        <h2>Contact List</h2>
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>123 Main St, New York</td>
+                <td>+1 234 567 890</td>
+                <td>john@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>456 Elm St, Los Angeles</td>
+                <td>+1 987 654 321</td>
+                <td>jane@gmail.com</td>
+            </tr>
+            <tr>
+                <td>David Brown</td>
+                <td>789 Oak St, Chicago</td>
+                <td>+1 456 789 123</td>
+                <td>david@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Emily White</td>
+                <td>101 Maple St, Miami</td>
+                <td>+1 321 654 987</td>
+                <td>emily@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Michael Green</td>
+                <td>202 Pine St, Houston</td>
+                <td>+1 123 987 654</td>
+                <td>michael@gmail.com</td>
+            </tr>
+        </table>
+    </section>
+
+    
+    <section>
+        <h2>Registration Form</h2>
+        <form action="submit.php" method="post">
+            
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+           
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter a strong password" minlength="6" required><br><br>
+
+           
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+          
+            <label for="country">Select Your Country:</label>
+            <select id="country" name="country">
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+                <option value="canada">Canada</option>
+                <option value="australia">Australia</option>
+            </select><br><br>
+
+           
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br><br>
+
+            
+            <label>Interests:</label>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label>
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label>
+            <input type="checkbox" id="reading" name="interests" value="reading">
+            <label for="reading">Reading</label><br><br>
+
+            
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+   
+    <section>
+        <h2>Multimedia Section</h2>
+        
+       
+        <h3>Relaxing Music</h3>
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        
+        <h3>Inspirational Video</h3>
+        <video width="600" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+   
+    <footer>
+        <p>Contact us at: <a href="mailto:info@example.com">info@example.com</a></p>
+        <p>&copy; 2025 My Website. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
